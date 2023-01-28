@@ -1,8 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "jest": true
+        "es2021": true
     },
     "extends": "airbnb-base",
     "overrides": [
@@ -12,10 +11,5 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-restricted-syntax": [
-            "error",
-            "LabeledStatement",
-            "WithStatement"
-        ]
     }
 }
